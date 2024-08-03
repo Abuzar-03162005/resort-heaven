@@ -17,7 +17,7 @@ const Dishes = () => {
       <div className="grid grid-cols-4 gap-y-4 py-4">
         {dishes.map((dishe, index) => {
           return (
-            <div key={index} className="h-full hover:scale-[1.05] transition-all">
+            <div key={index} className="hover:scale-[1.05] transition-all">
               <DishesCardProvider
                 src={dishe.Image}
                 width={dishe.width}

@@ -10,7 +10,7 @@ const HeroSection = () => {
       >
         <div className="flex flex-row justify-between w-4/5 ">
           <div className="firstRow">
-            <h1 className="text-[9rem] font-extralight ">Delicious</h1>
+            <h1 className="text-[9rem] font-extralight">Delicious</h1>
             <Image src="/hero1.png" alt="image" width={300} height={300} />
           </div>
           <div className="secondRow flex flex-col justify-end items-center relative -left-6 gap-2">

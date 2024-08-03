@@ -29,11 +29,11 @@ const AboutUs = () => {
             </p>
           </div>
           {/* button */}
-          <button className="button border border-gray-950 rounded-full w-[28%] px-8 py-4 my-4 hover:bg-black hover:text-white transition-all">
-            <Link href="/ExploreMore" className="">
+          <button className="explore_button border border-gray-950 rounded-full w-[28%] px-8 py-4 my-4 hover:bg-black hover:text-white transition-all">
+            <Link href="/ExploreMore" className="explore_link">
               <div className="flex flex-row justify-between">
-                <h1 className="tracking-wide">Explore Menu</h1>
-                <span className="bg-white rounded-full">
+                <h1 className="tracking-wide inline-block">Explore Menu</h1>
+                <span className="bg-white rounded-full inline-block">
                   <Image src="/next.png" alt="image" width={25} height={25} />
                 </span>
               </div>
