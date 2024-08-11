@@ -23,3 +23,31 @@
   left: 50%;
   cursor: pointer;
 }
+
+.Register_form {
+  font-family: sans-serif;
+  background-image: url(/background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: hsla(0, 0%, 100%, 1);
+
+  background: -webkit-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(18, 100%, 87%, 1) 100%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(18, 100%, 87%, 1) 100%
+  );
+
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(18, 100%, 87%, 1) 100%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFD2BF", GradientType=1 );
+}

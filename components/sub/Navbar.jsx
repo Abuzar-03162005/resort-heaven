@@ -11,26 +11,44 @@ const Navbar = () => {
       <div className="logo text-[2rem] font-normal">
         <Link href="/">ZEESH</Link>
       </div>
-      <div className={show ? "navLinks showmenu" : "navLinks"}>
+      <div>
         <div className="links flex flex-row justify-evenly items-center gap-6 ">
-          <Link href="#landingpage" className="font-light text-xl">
-            HOME
-          </Link>
-          <Link href="#aboutUs" className="font-light text-xl">
-            ABOUT US
-          </Link>
-          <Link href="#services" className="font-light text-xl">
-            SERVICES
-          </Link>
-          <Link href="#team" className="font-light text-xl">
-            TEAM
-          </Link>
-          <Link href="#reservation" className="font-light text-xl">
-            RESERVATION
-          </Link>
+          <ul className="flex flex-row justify-evenly items-center gap-6 ">
+            <li>
+              <Link href="#landingpage" className="font-light text-xl">
+                HOME
+              </Link>
+            </li>
+            <li>
+              <Link href="#aboutUs" className="font-light text-xl">
+                ABOUT US
+              </Link>
+            </li>
+            <li>
+              <Link href="#services" className="font-light text-xl">
+                SERVICES
+              </Link>
+            </li>
+            <li>
+              <Link href="#team" className="font-light text-xl">
+                TEAM
+              </Link>
+            </li>
+            <li>
+              <Link href="#reservation" className="font-light text-xl">
+                RESERVATION
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
-      <div className="menu-Btn hamburger" onClick={() => setShow(!show)}>
+      <div
+        className="menu-Btn flex items-center justify-center gap-4 "
+        onClick={() => setShow(!show)}
+      >
+        <div className="text-white px-6 py-1 rounded-full text-xl font-extralight tracking-wide bg-black hover:bg-transparent hover:text-black hover:border border-black hover:font-light transition-all">
+          <Link href="/register">Login</Link>
+        </div>
         <Image
           className="cursor-pointer"
           src="/menu.png"
