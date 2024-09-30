@@ -5,7 +5,7 @@ import Link from "next/link";
 const AboutUs = () => {
   return (
     // container
-    <div className="flex items-center justify-center py-10" id="aboutUs" >
+    <div className="flex items-center justify-center py-10" id="aboutUs">
       <div className="container flex flex-row justify-evenly w-[95%] px-8 py-14 bg-[#e1e4d1] rounded-3xl">
         {/* text container */}
         <div className="text flex flex-col items-start justify-between w-2/4 pr-16">
@@ -13,7 +13,7 @@ const AboutUs = () => {
           <div className="Heading flex flex-col justify-start items-start">
             <h2 className="text-[7rem] font-extralight mb-2">ABOUT US </h2>
             <h2 className="text-xl tracking-wider">
-              The only thing we're serious about is food.
+              The only thing {"we're"} serious about is food.
             </h2>
           </div>
           {/* paragraph */}
