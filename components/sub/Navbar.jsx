@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 "use client";
 import React from "react";
 import Link from "next/link";
@@ -43,7 +44,7 @@ const Navbar = () => {
         </div>
       </div>
       <div
-        className="menu-Btn flex items-center justify-center gap-4 "
+        className="flex items-center justify-center gap-4 "
         onClick={() => setShow(!show)}
       >
         <div className="text-white px-6 py-1 rounded-full text-xl font-extralight tracking-wide bg-black hover:bg-transparent hover:text-black hover:border border-black hover:font-light transition-all">

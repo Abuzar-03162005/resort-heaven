@@ -2,10 +2,11 @@ import React from "react";
 import { dishes } from "@/constants";
 import Image from "next/image";
 import DishesCardProvider from "../sub/DishesCardProvider";
+import Link from "next/link";
 
 const Dishes = () => {
   return (
-    <div className="Dishes_container">
+    <div className="Dishes_container flex flex-col gap-10">
       <div className="text w-full text-center">
         <h2 className="text-7xl font-light py-8">POPULAR DISHES</h2>
         <p className="font-normal pb-8">
@@ -28,6 +29,11 @@ const Dishes = () => {
             </div>
           );
         })}
+      </div>
+      <div className="w-full text-center">
+        <Link href="/recipes">
+          Take A look At Recipes ✨ 
+        </Link>
       </div>
     </div>
   );

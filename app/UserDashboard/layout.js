@@ -1,8 +1,15 @@
 import React from 'react'
 
-function layout() {
+const layout = ({children}) => {
   return (
-    <div>layout</div>
+    <div>
+      <div className='flex flex-row justify-between items-center'>
+        <div className='button rounded-full'></div>
+        <div></div>
+        <div></div>
+      </div>
+      {children}
+    </div>
   )
 }
 

@@ -24,6 +24,10 @@ const Page = () => {
       if (res.error) {
         setError("Invalid Credentials");
         return;
+      } else {
+        localStorage.setItem("is_loggedIn", "yes the user is logged-in");
+        let loggedinDetails = localStorage.getItem("is_loggedIn")
+        console.log(loggedinDetails)
       }
       router.replace("/");
     } catch (error) {

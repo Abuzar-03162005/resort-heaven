@@ -179,3 +179,271 @@ export const navbarLinks = [
     href: "#reservation",
   },
 ];
+export const recipes = [
+  {
+    name: "Classic Spaghetti Bolognese",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Spaghetti",
+      "Ground beef",
+      "Tomato sauce",
+      "Garlic",
+      "Onion",
+      "Olive oil",
+    ],
+    method:
+      "Cook spaghetti, sauté garlic and onions, add beef, cook until browned, then add tomato sauce and simmer. Mix with spaghetti and serve.",
+  },
+  {
+    name: "Chicken Alfredo Pasta",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Fettuccine",
+      "Chicken breast",
+      "Alfredo sauce",
+      "Parmesan cheese",
+      "Garlic",
+      "Butter",
+    ],
+    method:
+      "Cook fettuccine, sauté chicken until cooked, make Alfredo sauce with butter, garlic, and cheese, combine with pasta.",
+  },
+  {
+    name: "Vegetable Stir Fry",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Bell peppers",
+      "Broccoli",
+      "Carrots",
+      "Soy sauce",
+      "Garlic",
+      "Ginger",
+      "Sesame oil",
+    ],
+    method:
+      "Stir-fry vegetables in sesame oil, add garlic, ginger, and soy sauce, cook until tender.",
+  },
+  {
+    name: "Tandoori Chicken",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Chicken legs",
+      "Yogurt",
+      "Tandoori spices",
+      "Garlic",
+      "Lemon juice",
+      "Olive oil",
+    ],
+    method:
+      "Marinate chicken in yogurt and spices, bake in oven at 200°C for 35 minutes.",
+  },
+  {
+    name: "Chocolate Chip Cookies",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Butter",
+      "Sugar",
+      "Brown sugar",
+      "Vanilla extract",
+      "Eggs",
+      "Flour",
+      "Baking soda",
+      "Salt",
+      "Chocolate chips",
+    ],
+    method:
+      "Cream butter and sugar, add eggs and vanilla, fold in flour and chocolate chips, bake at 180°C for 12 minutes.",
+  },
+  {
+    name: "Caprese Salad",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Tomatoes",
+      "Fresh mozzarella",
+      "Basil",
+      "Balsamic glaze",
+      "Olive oil",
+    ],
+    method:
+      "Slice tomatoes and mozzarella, layer with basil, drizzle with olive oil and balsamic glaze.",
+  },
+  {
+    name: "Beef Tacos",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Ground beef",
+      "Taco seasoning",
+      "Taco shells",
+      "Lettuce",
+      "Cheese",
+      "Salsa",
+    ],
+    method:
+      "Cook ground beef with taco seasoning, fill taco shells with meat, lettuce, and cheese.",
+  },
+  {
+    name: "Margarita Pizza",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Pizza dough",
+      "Tomato sauce",
+      "Fresh mozzarella",
+      "Basil leaves",
+      "Olive oil",
+    ],
+    method:
+      "Spread sauce on dough, add mozzarella, bake at 220°C for 15 minutes, top with basil.",
+  },
+  {
+    name: "Butter Chicken",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Chicken breast",
+      "Tomato puree",
+      "Cream",
+      "Butter",
+      "Garlic",
+      "Garam masala",
+    ],
+    method:
+      "Cook chicken in butter, add tomato puree and spices, simmer with cream until thickened.",
+  },
+  {
+    name: "Greek Salad",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Cucumber",
+      "Tomatoes",
+      "Red onion",
+      "Feta cheese",
+      "Olives",
+      "Olive oil",
+      "Oregano",
+    ],
+    method:
+      "Chop vegetables, add feta and olives, drizzle with olive oil and oregano.",
+  },
+  {
+    name: "Lemon Garlic Shrimp",
+    image: "/images/recipe1.jpeg",
+    ingredients: ["Shrimp", "Garlic", "Butter", "Lemon juice", "Parsley"],
+    method:
+      "Sauté garlic in butter, add shrimp, cook until pink, drizzle with lemon juice.",
+  },
+  {
+    name: "BBQ Chicken Wings",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Chicken wings",
+      "BBQ sauce",
+      "Garlic powder",
+      "Paprika",
+      "Salt",
+      "Pepper",
+    ],
+    method:
+      "Season wings, bake at 200°C for 30 minutes, brush with BBQ sauce and bake for 10 more minutes.",
+  },
+  {
+    name: "Mushroom Risotto",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Arborio rice",
+      "Mushrooms",
+      "Chicken broth",
+      "Parmesan cheese",
+      "Garlic",
+      "Butter",
+    ],
+    method:
+      "Sauté mushrooms, add rice, gradually add broth, stir constantly, finish with Parmesan.",
+  },
+  {
+    name: "French Toast",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Bread",
+      "Eggs",
+      "Milk",
+      "Cinnamon",
+      "Vanilla extract",
+      "Butter",
+    ],
+    method:
+      "Whisk eggs, milk, and spices, dip bread, cook in butter until golden brown.",
+  },
+  {
+    name: "Caesar Salad",
+    image: "/images/recipe1.jpeg",
+    ingredients: ["Romaine lettuce", "Croutons", "Parmesan", "Caesar dressing"],
+    method:
+      "Chop lettuce, add croutons and Parmesan, toss with Caesar dressing.",
+  },
+  {
+    name: "Chicken Fried Rice",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Rice",
+      "Chicken breast",
+      "Peas",
+      "Carrots",
+      "Soy sauce",
+      "Eggs",
+      "Sesame oil",
+    ],
+    method:
+      "Cook chicken, add rice and vegetables, stir in soy sauce and scrambled eggs.",
+  },
+  {
+    name: "Lamb Korma",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Lamb",
+      "Yogurt",
+      "Onion",
+      "Garlic",
+      "Ginger",
+      "Garam masala",
+      "Cream",
+    ],
+    method:
+      "Brown lamb, add onions and spices, simmer in yogurt and cream until tender.",
+  },
+  {
+    name: "Veggie Burger",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Black beans",
+      "Oats",
+      "Onion",
+      "Garlic",
+      "Spices",
+      "Burger buns",
+    ],
+    method:
+      "Mash beans, mix with other ingredients, shape patties, cook in skillet, serve on buns.",
+  },
+  {
+    name: "Pad Thai",
+    image: "/images/recipe1.jpeg",
+    ingredients: [
+      "Rice noodles",
+      "Shrimp",
+      "Tofu",
+      "Bean sprouts",
+      "Egg",
+      "Peanuts",
+      "Lime",
+      "Fish sauce",
+    ],
+    method:
+      "Cook noodles, stir-fry shrimp and tofu, add noodles and sauce, top with sprouts and peanuts.",
+  },
+  {
+    name: "Grilled Salmon",
+    image: "/images/recipe1.jpeg",
+    ingredients: ["Salmon fillets", "Olive oil", "Lemon", "Garlic", "Herbs"],
+    method:
+      "Marinate salmon in oil, garlic, and herbs, grill for 6 minutes per side.",
+  },
+];
