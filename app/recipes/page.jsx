@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { recipes } from "@/constants";
 import RecipesCard from "@/components/sub/RecipesCard";
@@ -11,14 +11,24 @@ const page = () => {
         {recipes.map((item, index) => {
           return (
             <>
-              <div className="flex flex-col justify-evenly items-center" key={index}>
-                <div className="imageContainer">
+              <div
+                className="flex flex-col justify-evenly items-center"
+                key={index}
+              >
+                <RecipesCard
+                  src={item.image}
+                  width={100}
+                  height={100}
+                  name={item.name}
+                  desc={item.method}
+                />
+                {/* <div className="imageContainer">
                   <Image src={item.image} alt="image" width={100} height={100} />
                 </div>
                 <div className="DetailsContainer">
                   <h2 className="">{item.name}</h2>
-                  <p className="line-clamp-3">{item.method}</p>``
-                </div>
+                  <p className="line-clamp-3">{item.method}</p>
+                </div> */}
               </div>
             </>
           );

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const Dishes = () => {
   return (
-    <div className="Dishes_container flex flex-col gap-10">
+    <div className="Dishes_container flex flex-col justify-center gap-10">
       <div className="text w-full text-center">
         <h2 className="text-7xl font-light py-8">POPULAR DISHES</h2>
         <p className="font-normal pb-8">
@@ -30,10 +30,8 @@ const Dishes = () => {
           );
         })}
       </div>
-      <div className="w-full text-center">
-        <Link href="/recipes">
-          Take A look At Recipes ✨ 
-        </Link>
+      <div className="text-center text-white text-2xl  bg-black">
+        <Link href="/recipes">Take A look At Recipes ✨</Link>
       </div>
     </div>
   );
