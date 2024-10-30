@@ -51,3 +51,30 @@
 
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FFFFFF", endColorstr="#FFD2BF", GradientType=1 );
 }
+
+.glossybackground {
+  /* From https://css.glass */
+  background: rgba(146, 146, 146, 0.266);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.8px);
+  -webkit-backdrop-filter: blur(10.8px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.Dsah_gradient {
+  background-image: linear-gradient(
+    to right top,
+    #ffffff,
+    #faf3fb,
+    #fce6f1,
+    #ffd9de,
+    #ffcec5,
+    #ffc8bb,
+    #ffc2b1,
+    #ffbda6,
+    #ffb8b2,
+    #ffb5c2,
+    #ffb4d4,
+    #ffb6e8
+  );
+}

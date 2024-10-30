@@ -6,8 +6,8 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <div className="grid grid-cols-3 justify-evenly items-center">
-      <div className="grid grid-cols-3">
+    <div className="bg-black">
+      <div className="grid grid-cols-3 gap-10">
         {recipes.map((item, index) => {
           return (
             <>
@@ -22,13 +22,6 @@ const page = () => {
                   name={item.name}
                   desc={item.method}
                 />
-                {/* <div className="imageContainer">
-                  <Image src={item.image} alt="image" width={100} height={100} />
-                </div>
-                <div className="DetailsContainer">
-                  <h2 className="">{item.name}</h2>
-                  <p className="line-clamp-3">{item.method}</p>
-                </div> */}
               </div>
             </>
           );

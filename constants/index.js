@@ -182,7 +182,7 @@ export const navbarLinks = [
 export const recipes = [
   {
     name: "Classic Spaghetti Bolognese",
-    image: "/images/recipe1.jpeg",
+    image: "/images/ClassicSpaghettiBolognese.jpg",
     ingredients: [
       "Spaghetti",
       "Ground beef",
@@ -196,7 +196,7 @@ export const recipes = [
   },
   {
     name: "Chicken Alfredo Pasta",
-    image: "/images/recipe2.jpeg",
+    image: "/images/alferdoPasta.jpg",
     ingredients: [
       "Fettuccine",
       "Chicken breast",
@@ -210,7 +210,7 @@ export const recipes = [
   },
   {
     name: "Vegetable Stir Fry",
-    image: "/images/recipe3.jpeg",
+    image: "/images/StirFry.jpeg",
     ingredients: [
       "Bell peppers",
       "Broccoli",
@@ -225,7 +225,7 @@ export const recipes = [
   },
   {
     name: "Tandoori Chicken",
-    image: "/images/recipe4.jpeg",
+    image: "/images/TandoriChicken.jpeg",
     ingredients: [
       "Chicken legs",
       "Yogurt",
@@ -239,7 +239,7 @@ export const recipes = [
   },
   {
     name: "Chocolate Chip Cookies",
-    image: "/images/recipe5.jpeg",
+    image: "/images/ChocolateChipCookies.jpeg",
     ingredients: [
       "Butter",
       "Sugar",
@@ -256,7 +256,7 @@ export const recipes = [
   },
   {
     name: "Caprese Salad",
-    image: "/images/recipe6.jpeg",
+    image: "/images/CapreseSalad.jpeg",
     ingredients: [
       "Tomatoes",
       "Fresh mozzarella",
@@ -269,7 +269,7 @@ export const recipes = [
   },
   {
     name: "Beef Tacos",
-    image: "/images/recipe7.jpeg",
+    image: "/images/beeftacos.jpeg",
     ingredients: [
       "Ground beef",
       "Taco seasoning",
@@ -283,7 +283,7 @@ export const recipes = [
   },
   {
     name: "Margarita Pizza",
-    image: "/images/recipe8.jpeg",
+    image: "/images/MargaritaPizza.jpeg",
     ingredients: [
       "Pizza dough",
       "Tomato sauce",
@@ -296,7 +296,7 @@ export const recipes = [
   },
   {
     name: "Butter Chicken",
-    image: "/images/recipe9.jpeg",
+    image: "/images/ButterChicken.jpeg",
     ingredients: [
       "Chicken breast",
       "Tomato puree",
@@ -310,7 +310,7 @@ export const recipes = [
   },
   {
     name: "Greek Salad",
-    image: "/images/recipe10.jpeg",
+    image: "/images/GreekSalad.jpeg",
     ingredients: [
       "Cucumber",
       "Tomatoes",
@@ -325,28 +325,28 @@ export const recipes = [
   },
   {
     name: "Lemon Garlic Shrimp",
-    image: "/images/recipe11.jpeg",
+    image: "/images/LemonGarlicShrimp.jpeg",
     ingredients: ["Shrimp", "Garlic", "Butter", "Lemon juice", "Parsley"],
     method:
       "Sauté garlic in butter, add shrimp, cook until pink, drizzle with lemon juice.",
   },
-  {
-    name: "BBQ Chicken Wings",
-    image: "/images/recipe12.jpeg",
-    ingredients: [
-      "Chicken wings",
-      "BBQ sauce",
-      "Garlic powder",
-      "Paprika",
-      "Salt",
-      "Pepper",
-    ],
-    method:
-      "Season wings, bake at 200°C for 30 minutes, brush with BBQ sauce and bake for 10 more minutes.",
-  },
+  // {
+  //   name: "BBQ Chicken Wings",
+  //   image: "/images/recipe12.jpeg",
+  //   ingredients: [
+  //     "Chicken wings",
+  //     "BBQ sauce",
+  //     "Garlic powder",
+  //     "Paprika",
+  //     "Salt",
+  //     "Pepper",
+  //   ],
+  //   method:
+  //     "Season wings, bake at 200°C for 30 minutes, brush with BBQ sauce and bake for 10 more minutes.",
+  // },
   {
     name: "Mushroom Risotto",
-    image: "/images/recipe13.jpeg",
+    image: "/images/MushroomRisotto.jpeg",
     ingredients: [
       "Arborio rice",
       "Mushrooms",
@@ -360,7 +360,7 @@ export const recipes = [
   },
   {
     name: "French Toast",
-    image: "/images/recipe14.jpeg",
+    image: "/images/frenchtoast.jpeg",
     ingredients: [
       "Bread",
       "Eggs",
@@ -374,14 +374,14 @@ export const recipes = [
   },
   {
     name: "Caesar Salad",
-    image: "/images/recipe15.jpeg",
+    image: "/images/CaesarSalad.jpeg",
     ingredients: ["Romaine lettuce", "Croutons", "Parmesan", "Caesar dressing"],
     method:
       "Chop lettuce, add croutons and Parmesan, toss with Caesar dressing.",
   },
   {
     name: "Chicken Fried Rice",
-    image: "/images/recipe16.jpeg",
+    image: "/images/ChickenFriedRice.jpeg",
     ingredients: [
       "Rice",
       "Chicken breast",
@@ -396,7 +396,7 @@ export const recipes = [
   },
   {
     name: "Lamb Korma",
-    image: "/images/recipe17.jpeg",
+    image: "/images/LambKorma.jpeg",
     ingredients: [
       "Lamb",
       "Yogurt",
@@ -411,7 +411,7 @@ export const recipes = [
   },
   {
     name: "Veggie Burger",
-    image: "/images/recipe18.jpeg",
+    image: "/images/VeggieBurger.jpeg",
     ingredients: [
       "Black beans",
       "Oats",
@@ -425,7 +425,7 @@ export const recipes = [
   },
   {
     name: "Pad Thai",
-    image: "/images/recipe19.jpeg",
+    image: "/images/padThai.jpeg",
     ingredients: [
       "Rice noodles",
       "Shrimp",
@@ -441,7 +441,7 @@ export const recipes = [
   },
   {
     name: "Grilled Salmon",
-    image: "/images/recipe20.jpeg",
+    image: "/images/GrilledSalmon.jpeg",
     ingredients: ["Salmon fillets", "Olive oil", "Lemon", "Garlic", "Herbs"],
     method:
       "Marinate salmon in oil, garlic, and herbs, grill for 6 minutes per side.",

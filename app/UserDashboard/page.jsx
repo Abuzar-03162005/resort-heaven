@@ -2,7 +2,10 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div className='border-[5px] border-red-600'>page</div>
+    <div className='flex-col p-4 h-screen Dsah_gradient'>
+      <div className="glossybackground h-screen"></div>
+
+    </div>
   )
 }
 
